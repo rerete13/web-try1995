@@ -1,0 +1,67 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  z-index: 5;
+  background-color: rgb(18, 32, 235);
+  min-width: 100vh;
+  position: static;
+}
+
+.btnNav1 {
+}
+
+.content {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.block1 {
+  background: url('/media/img/rim.png') 0 0 no-repeat fixed;
+  min-height: 100vh;
+  min-width: 100%;
+  background-size: 100% auto;
+}
+
+.block2 {
+  min-height: 100vh;
+  background: lightblue;
+  padding-top: 100px;
+}
+
+.block3 {
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.img1 {
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+  top: 5vh;
+}
+
+.range1 {
+  z-index: 777;
+  min-width: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  bottom: 5vh;
+}
+
+.block4 {
+  min-height: 100vh;
+  background-color: brown;
+}
+
+.block5 {
+  min-height: 100vh;
+}
